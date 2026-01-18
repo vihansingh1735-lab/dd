@@ -1,6 +1,6 @@
 
 const API="http://2.56.246.81:30085";
-const KEY="CHANGE_THIS_SECRET";
+const KEY="pbot_9F3kA2XvR7QmLw8Z";
 
 fetch(API+"/api/guilds",{headers:{"x-api-key":KEY}})
 .then(r=>r.json())
